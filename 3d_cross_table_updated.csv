@@ -1,0 +1,193 @@
+Sensor Type,Signal Processing Technique,Track Parameter or Irregularity,Shared References,References
+Axle box accelerations (ABA),Band-pass,Track geometry,4,"28, 32, 33, 53"
+Axle box accelerations (ABA),Band-pass,Longitudinal level,2,"32, 33"
+Axle box accelerations (ABA),Band-pass,Alignment,3,"32, 33, 53"
+Axle box accelerations (ABA),Band-pass,Cant,1,53
+Axle box accelerations (ABA),Band-pass,Corrugation,1,59
+Axle box accelerations (ABA),Butterworth filter,Track geometry,2,"32, 51"
+Axle box accelerations (ABA),Butterworth filter,Longitudinal level,1,32
+Axle box accelerations (ABA),Butterworth filter,Alignment,2,"32, 51"
+Axle box accelerations (ABA),Butterworth filter,Gauge,1,51
+Axle box accelerations (ABA),Butterworth filter,Joints (Insulated / Glued),2,"69, 83"
+Axle box accelerations (ABA),Butterworth filter,Squats,1,69
+Axle box accelerations (ABA),Double integration,Track geometry,2,"28, 51"
+Axle box accelerations (ABA),Double integration,Longitudinal level,2,"25, 50"
+Axle box accelerations (ABA),Double integration,Alignment,2,"25, 51"
+Axle box accelerations (ABA),Double integration,Gauge,1,51
+Axle box accelerations (ABA),Double integration,Corrugation,1,59
+Axle box accelerations (ABA),Double integration,Track Quality and TQI,1,23
+Axle box accelerations (ABA),Double integration,Squats,1,70
+Axle box accelerations (ABA),Fourier transform,Track geometry,1,51
+Axle box accelerations (ABA),Fourier transform,Longitudinal level,1,50
+Axle box accelerations (ABA),Fourier transform,Alignment,1,51
+Axle box accelerations (ABA),Fourier transform,Gauge,1,51
+Axle box accelerations (ABA),Fourier transform,Corrugation,3,"57, 62, 66"
+Axle box accelerations (ABA),Fourier transform,Joints (Insulated / Glued),1,69
+Axle box accelerations (ABA),Fourier transform,Squats,3,"57, 69, 70"
+Axle box accelerations (ABA),Hilbert–Huang transform (HHT),Track geometry,1,44
+Axle box accelerations (ABA),Hilbert–Huang transform (HHT),Longitudinal level,1,44
+Axle box accelerations (ABA),Hilbert–Huang transform (HHT),Track stiffness,1,14
+Axle box accelerations (ABA),High-pass filter,Corrugation,1,59
+Axle box accelerations (ABA),High-pass filter,Squats,1,70
+Axle box accelerations (ABA),Kalman filter,Track geometry,3,"28, 33, 53"
+Axle box accelerations (ABA),Kalman filter,Longitudinal level,1,33
+Axle box accelerations (ABA),Kalman filter,Alignment,2,"33, 53"
+Axle box accelerations (ABA),Kalman filter,Cant,1,53
+Axle box accelerations (ABA),Kalman filter,Corrugation,1,59
+Axle box accelerations (ABA),Kalman filter,Joints (Insulated / Glued),1,68
+Axle box accelerations (ABA),Kalman filter,Track stiffness,2,"14, 79"
+Axle box accelerations (ABA),Kalman filter,Squats,1,68
+Axle box accelerations (ABA),Karhunen–Loève,Track Quality and TQI,1,23
+Axle box accelerations (ABA),Low-pass filter,Corrugation,1,59
+Axle box accelerations (ABA),Low-pass filter,Joints (Insulated / Glued),1,83
+Axle box accelerations (ABA),Low-pass filter,Track Quality and TQI,1,23
+Axle box accelerations (ABA),Low-pass filter,Squats,1,100
+Axle box accelerations (ABA),ML and convolutional networks,Corrugation,1,57
+Axle box accelerations (ABA),ML and convolutional networks,Fasteners / Rail pads,1,75
+Axle box accelerations (ABA),ML and convolutional networks,Joints (Insulated / Glued),1,101
+Axle box accelerations (ABA),ML and convolutional networks,Squats,3,"57, 100, 101"
+Axle box accelerations (ABA),Mixed filtering approach,Track geometry,1,33
+Axle box accelerations (ABA),Mixed filtering approach,Longitudinal level,1,33
+Axle box accelerations (ABA),Mixed filtering approach,Alignment,1,33
+Axle box accelerations (ABA),Rauch-Tung-Striebel smoother,Corrugation,1,59
+Axle box accelerations (ABA),Root mean square (RMS),Track geometry,1,44
+Axle box accelerations (ABA),Root mean square (RMS),Longitudinal level,1,44
+Axle box accelerations (ABA),Wavelet analysis,Track geometry,1,44
+Axle box accelerations (ABA),Wavelet analysis,Longitudinal level,1,44
+Axle box accelerations (ABA),Wavelet analysis,Track stiffness,1,14
+Axle box accelerations (ABA),Wavelet analysis,Squats,1,67
+Bogie accelerations,10 m-chord versine,Track geometry,1,37
+Bogie accelerations,10 m-chord versine,Longitudinal level,1,37
+Bogie accelerations,Band-pass,Track geometry,4,"28, 31, 33, 53"
+Bogie accelerations,Band-pass,Longitudinal level,2,"31, 33"
+Bogie accelerations,Band-pass,Alignment,2,"33, 53"
+Bogie accelerations,Band-pass,Cant,1,53
+Bogie accelerations,Butterworth filter,Track geometry,1,40
+Bogie accelerations,Butterworth filter,Longitudinal level,1,40
+Bogie accelerations,Double integration,Track geometry,2,"28, 46"
+Bogie accelerations,Double integration,Longitudinal level,1,46
+Bogie accelerations,Double integration,Alignment,1,46
+Bogie accelerations,Fourier transform,Track geometry,3,"26, 27, 41"
+Bogie accelerations,Fourier transform,Longitudinal level,1,41
+Bogie accelerations,Hilbert–Huang transform (HHT),Track stiffness,1,14
+Bogie accelerations,Kalman filter,Track geometry,4,"28, 31, 33, 53"
+Bogie accelerations,Kalman filter,Longitudinal level,2,"31, 33"
+Bogie accelerations,Kalman filter,Alignment,3,"33, 53, 54"
+Bogie accelerations,Kalman filter,Cant,1,53
+Bogie accelerations,Kalman filter,Track stiffness,1,14
+Bogie accelerations,Low-pass filter,Track geometry,1,46
+Bogie accelerations,Low-pass filter,Longitudinal level,1,46
+Bogie accelerations,Low-pass filter,Alignment,1,46
+Bogie accelerations,ML and convolutional networks,Track geometry,2,"26, 27"
+Bogie accelerations,ML and convolutional networks,Longitudinal level,2,"38, 99"
+Bogie accelerations,Mixed filtering approach,Track geometry,1,33
+Bogie accelerations,Mixed filtering approach,Longitudinal level,1,33
+Bogie accelerations,Mixed filtering approach,Alignment,1,33
+Bogie accelerations,Root mean square (RMS),Track geometry,2,"31, 41"
+Bogie accelerations,Root mean square (RMS),Longitudinal level,2,"31, 41"
+Bogie accelerations,Root mean square (RMS),Alignment,1,54
+Bogie accelerations,Root mean square (RMS),Squats,1,71
+Bogie accelerations,Wavelet analysis,Track geometry,1,27
+Bogie accelerations,Wavelet analysis,Track stiffness,1,14
+Car-body accelerations,10 m-chord versine,Track geometry,1,43
+Car-body accelerations,10 m-chord versine,Longitudinal level,1,43
+Car-body accelerations,Band-pass,Track geometry,5,"28, 32, 48, 53, 102"
+Car-body accelerations,Band-pass,Longitudinal level,3,"32, 48, 102"
+Car-body accelerations,Band-pass,Alignment,3,"32, 48, 53"
+Car-body accelerations,Band-pass,Cant,1,53
+Car-body accelerations,Butterworth filter,Track geometry,1,32
+Car-body accelerations,Butterworth filter,Longitudinal level,1,32
+Car-body accelerations,Butterworth filter,Alignment,1,32
+Car-body accelerations,Double integration,Track geometry,3,"28, 46, 48"
+Car-body accelerations,Double integration,Longitudinal level,2,"46, 48"
+Car-body accelerations,Double integration,Alignment,2,"46, 48"
+Car-body accelerations,Fourier transform,Track geometry,2,"26, 27"
+Car-body accelerations,Fourier transform,Track voids,1,49
+Car-body accelerations,Hilbert–Huang transform (HHT),Track geometry,2,"44, 45"
+Car-body accelerations,Hilbert–Huang transform (HHT),Longitudinal level,2,"44, 45"
+Car-body accelerations,Hilbert–Huang transform (HHT),Track stiffness,1,14
+Car-body accelerations,High-pass filter,Track geometry,1,55
+Car-body accelerations,Kalman filter,Track geometry,4,"28, 43, 53, 56"
+Car-body accelerations,Kalman filter,Longitudinal level,1,43
+Car-body accelerations,Kalman filter,Alignment,2,"53, 54"
+Car-body accelerations,Kalman filter,Cant,2,"53, 56"
+Car-body accelerations,Kalman filter,Track stiffness,1,14
+Car-body accelerations,Low-pass filter,Track geometry,3,"46, 48, 55"
+Car-body accelerations,Low-pass filter,Longitudinal level,2,"46, 48"
+Car-body accelerations,Low-pass filter,Alignment,2,"46, 48"
+Car-body accelerations,Low-pass filter,Track voids,1,49
+Car-body accelerations,ML and convolutional networks,Track geometry,5,"26, 27, 97, 98, 102"
+Car-body accelerations,ML and convolutional networks,Longitudinal level,4,"97, 98, 99, 102"
+Car-body accelerations,ML and convolutional networks,Alignment,1,97
+Car-body accelerations,ML and convolutional networks,Cant,1,97
+Car-body accelerations,ML and convolutional networks,Track Quality and TQI,2,"98, 104"
+Car-body accelerations,Mixed filtering approach,Track geometry,2,"42, 43"
+Car-body accelerations,Mixed filtering approach,Longitudinal level,2,"42, 43"
+Car-body accelerations,Mixed filtering approach,Corrugation,1,42
+Car-body accelerations,Root mean square (RMS),Track geometry,2,"43, 44"
+Car-body accelerations,Root mean square (RMS),Longitudinal level,2,"43, 44"
+Car-body accelerations,Root mean square (RMS),Alignment,1,54
+Car-body accelerations,Root mean square (RMS),Track voids,1,49
+Car-body accelerations,Wavelet analysis,Track geometry,7,"27, 42, 43, 44, 45, 48, 55"
+Car-body accelerations,Wavelet analysis,Longitudinal level,5,"42, 43, 44, 45, 48"
+Car-body accelerations,Wavelet analysis,Alignment,1,48
+Car-body accelerations,Wavelet analysis,Corrugation,1,42
+Car-body accelerations,Wavelet analysis,Track stiffness,1,14
+Car-body accelerations,Wavelet analysis,Track voids,1,49
+IMU,Band-pass,Track geometry,1,31
+IMU,Band-pass,Longitudinal level,1,31
+IMU,Kalman filter,Track geometry,2,"31, 56"
+IMU,Kalman filter,Longitudinal level,1,31
+IMU,Kalman filter,Cant,1,56
+IMU,Root mean square (RMS),Track geometry,1,31
+IMU,Root mean square (RMS),Longitudinal level,1,31
+Low-cost devices,Band-pass,Track geometry,1,48
+Low-cost devices,Band-pass,Longitudinal level,1,48
+Low-cost devices,Band-pass,Alignment,1,48
+Low-cost devices,Double integration,Track geometry,1,48
+Low-cost devices,Double integration,Longitudinal level,1,48
+Low-cost devices,Double integration,Alignment,1,48
+Low-cost devices,Fourier transform,Track voids,1,49
+Low-cost devices,Low-pass filter,Track geometry,1,48
+Low-cost devices,Low-pass filter,Longitudinal level,1,48
+Low-cost devices,Low-pass filter,Alignment,1,48
+Low-cost devices,Low-pass filter,Track voids,1,49
+Low-cost devices,Root mean square (RMS),Track voids,1,49
+Low-cost devices,Wavelet analysis,Track geometry,1,48
+Low-cost devices,Wavelet analysis,Longitudinal level,1,48
+Low-cost devices,Wavelet analysis,Alignment,1,48
+Low-cost devices,Wavelet analysis,Track voids,1,49
+Wheel discs accelerations,Fourier transform,Alignment,1,22
+Wheel discs accelerations,Fourier transform,Corrugation,1,22
+MBS / FEM (virtual sensors),10 m-chord versine,Track geometry,1,43
+MBS / FEM (virtual sensors),10 m-chord versine,Longitudinal level,1,43
+MBS / FEM (virtual sensors),Band-pass,Track geometry,3,"28, 48, 53"
+MBS / FEM (virtual sensors),Band-pass,Longitudinal level,1,48
+MBS / FEM (virtual sensors),Band-pass,Alignment,2,"48, 53"
+MBS / FEM (virtual sensors),Band-pass,Cant,1,53
+MBS / FEM (virtual sensors),Double integration,Track geometry,2,"28, 48"
+MBS / FEM (virtual sensors),Double integration,Longitudinal level,1,48
+MBS / FEM (virtual sensors),Double integration,Alignment,1,48
+MBS / FEM (virtual sensors),Hilbert–Huang transform (HHT),Track geometry,1,44
+MBS / FEM (virtual sensors),Hilbert–Huang transform (HHT),Longitudinal level,1,44
+MBS / FEM (virtual sensors),Kalman filter,Track geometry,3,"28, 43, 53"
+MBS / FEM (virtual sensors),Kalman filter,Longitudinal level,1,43
+MBS / FEM (virtual sensors),Kalman filter,Alignment,1,53
+MBS / FEM (virtual sensors),Kalman filter,Cant,1,53
+MBS / FEM (virtual sensors),Low-pass filter,Track geometry,1,48
+MBS / FEM (virtual sensors),Low-pass filter,Longitudinal level,1,48
+MBS / FEM (virtual sensors),Low-pass filter,Alignment,1,48
+MBS / FEM (virtual sensors),ML and convolutional networks,Track geometry,1,97
+MBS / FEM (virtual sensors),ML and convolutional networks,Longitudinal level,1,97
+MBS / FEM (virtual sensors),ML and convolutional networks,Alignment,1,97
+MBS / FEM (virtual sensors),ML and convolutional networks,Cant,1,97
+MBS / FEM (virtual sensors),Mixed filtering approach,Track geometry,2,"42, 43"
+MBS / FEM (virtual sensors),Mixed filtering approach,Longitudinal level,2,"42, 43"
+MBS / FEM (virtual sensors),Mixed filtering approach,Corrugation,1,42
+MBS / FEM (virtual sensors),Root mean square (RMS),Track geometry,2,"43, 44"
+MBS / FEM (virtual sensors),Root mean square (RMS),Longitudinal level,2,"43, 44"
+MBS / FEM (virtual sensors),Root mean square (RMS),Squats,1,71
+MBS / FEM (virtual sensors),Wavelet analysis,Track geometry,4,"42, 43, 44, 48"
+MBS / FEM (virtual sensors),Wavelet analysis,Longitudinal level,4,"42, 43, 44, 48"
+MBS / FEM (virtual sensors),Wavelet analysis,Alignment,1,48
+MBS / FEM (virtual sensors),Wavelet analysis,Corrugation,1,42

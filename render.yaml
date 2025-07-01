@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: interactive-dashboard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python interactive_dashboard_updated.py
+    plan: free
