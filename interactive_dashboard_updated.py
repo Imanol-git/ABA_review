@@ -96,5 +96,10 @@ def update_figure(selected_sensors, selected_signals, selected_tracks):
     return fig
 
 # Run the app
+
+import os
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run_server(debug=False, host="0.0.0.0", port=port)
+
