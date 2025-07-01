@@ -3,5 +3,5 @@ services:
     name: interactive-dashboard
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python interactive_dashboard_updated.py
+    startCommand: python3 interactive_dashboard_updated.py
     plan: free
