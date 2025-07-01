@@ -86,9 +86,9 @@ def update_figure(selected_sensors, selected_signals, selected_tracks):
 
     fig.update_layout(
         scene=dict(
-            xaxis=dict(title="Sensor Type", titlefont=dict(size=14), tickfont=dict(size=10), tickangle=45),
-            yaxis=dict(title="Signal Processing Technique", titlefont=dict(size=14), tickfont=dict(size=10), tickangle=45),
-            zaxis=dict(title="Track Parameter or Irregularity", titlefont=dict(size=14), tickfont=dict(size=10), tickangle=45)
+            xaxis=dict(title="Sensor Type", tickfont=dict(size=14), tickfont=dict(size=10), tickangle=45),
+            yaxis=dict(title="Signal Processing Technique", tickfont=dict(size=14), tickfont=dict(size=10), tickangle=45),
+            zaxis=dict(title="Track Parameter or Irregularity", tickfont=dict(size=14), tickfont=dict(size=10), tickangle=45)
         ),
         margin=dict(l=0, r=0, b=0, t=40)
     )
