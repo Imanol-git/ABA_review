@@ -14,7 +14,9 @@ app.title = "3D Cross-Table Dashboard"
 
 # Layout of the dashboard
 app.layout = html.Div([
-    html.H1("3D Cross-Table of Sensors, Signal Processing, and Track Parameters"),
+    html.H1("Bravo et al. 'On-board accelerometers in railway track condition monitoring. A systematic review'"),
+    html.H2("Interactive 3D Cross-Table of Sensors, Signal Processing Techniques, and Track Parameters"),
+    html.H3("Centro Tecnológico Ceit-BRTA"),
 
     html.Div([
         html.Label("Sensor Type:"),
