@@ -19,40 +19,42 @@ app.layout = html.Div([
     html.H3("Centro Tecnológico Ceit-BRTA"),
 
     html.Div([
-        html.Label("Sensor Type:"),
-        dcc.Dropdown(
-            options=[{"label": s, "value": s} for s in sorted(df["Sensor Type"].unique())],
-            value=None,
-            id="sensor-dropdown",
-            multi=True,
-            placeholder="Select sensor types"
-        ),
-    ], style={"width": "30%", "display": "inline-block", "padding": "10px"}),
+        html.Div([
+            html.Label("Sensor Type:"),
+            dcc.Dropdown(
+                options=[{"label": s, "value": s} for s in sorted(df["Sensor Type"].unique())],
+                value=None,
+                id="sensor-dropdown",
+                multi=True,
+                placeholder="Select sensor types"
+            ),
+        ], style={"flex": "1", "minWidth": "250px", "padding": "10px"}),
 
-    html.Div([
-        html.Label("Signal Processing Technique:"),
-        dcc.Dropdown(
-            options=[{"label": s, "value": s} for s in sorted(df["Signal Processing Technique"].unique())],
-            value=None,
-            id="signal-dropdown",
-            multi=True,
-            placeholder="Select signal processing techniques"
-        ),
-    ], style={"width": "30%", "display": "inline-block", "padding": "10px"}),
+        html.Div([
+            html.Label("Signal Processing Technique:"),
+            dcc.Dropdown(
+                options=[{"label": s, "value": s} for s in sorted(df["Signal Processing Technique"].unique())],
+                value=None,
+                id="signal-dropdown",
+                multi=True,
+                placeholder="Select signal processing techniques"
+            ),
+        ], style={"flex": "1", "minWidth": "250px", "padding": "10px"}),
 
-    html.Div([
-        html.Label("Track Parameter or Irregularity:"),
-        dcc.Dropdown(
-            options=[{"label": s, "value": s} for s in sorted(df["Track Parameter or Irregularity"].unique())],
-            value=None,
-            id="track-dropdown",
-            multi=True,
-            placeholder="Select track parameters or irregularities"
-        ),
-    ], style={"width": "30%", "display": "inline-block", "padding": "10px"}),
+        html.Div([
+            html.Label("Track Parameter or Irregularity:"),
+            dcc.Dropdown(
+                options=[{"label": s, "value": s} for s in sorted(df["Track Parameter or Irregularity"].unique())],
+                value=None,
+                id="track-dropdown",
+                multi=True,
+                placeholder="Select track parameters or irregularities"
+            ),
+        ], style={"flex": "1", "minWidth": "250px", "padding": "10px"}),
+    ], style={"display": "flex", "flexWrap": "wrap", "justifyContent": "space-between"}),
 
-    dcc.Graph(id="3d-scatter")
-])
+    dcc.Graph(id="3d-scatter", style={"height": "800px", "width": "100%"})
+], style={"padding": "20px", "overflowX": "auto"})
 
 # Callback to update the 3D scatter plot
 @app.callback(
@@ -97,10 +99,12 @@ def update_figure(selected_sensors, selected_signals, selected_tracks):
     
     
     fig.update_layout(
+        autosize=True,
+        height=800,
         scene=dict(
-            xaxis=dict(title="Sensor Type", tickfont=dict(size=10), tickangle=45),
-            yaxis=dict(title="Signal Processing Technique", tickfont=dict(size=10), tickangle=45),
-            zaxis=dict(title="Track Parameter or Irregularity", tickfont=dict(size=10), tickangle=45)
+            xaxis=dict(title="Sensor Type", titlefont=dict(size=12), tickfont=dict(size=9), tickangle=60),
+            yaxis=dict(title="Signal Processing Technique", titlefont=dict(size=12), tickfont=dict(size=9), tickangle=60),
+            zaxis=dict(title="Track Parameter or Irregularity", titlefont=dict(size=12), tickfont=dict(size=9), tickangle=60)
         ),
         margin=dict(l=0, r=0, b=0, t=40)
     )
