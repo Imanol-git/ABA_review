@@ -14,7 +14,7 @@ df = pd.read_csv("3d_cross_table_updated.csv")
 
 # Initialize the Dash app
 app = Dash(__name__)
-server = app.server  # Expose the Flask server
+server = app.server # Expose Flask server
 
 app.title = "3D Cross-Table Dashboard"
 
