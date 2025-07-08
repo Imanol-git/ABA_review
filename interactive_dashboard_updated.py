@@ -4,13 +4,26 @@
 import pandas as pd
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
+from flask import request
+from datetime import datetime
+import os
+
 
 # Load the dataset
 df = pd.read_csv("3d_cross_table_updated.csv")
 
 # Initialize the Dash app
 app = Dash(__name__)
+server = app.server  # Expose the Flask server
+
 app.title = "3D Cross-Table Dashboard"
+
+# Log each visit with timestamp and IP address
+@app.server.before_request
+def log_visit():
+    with open("visit_log.txt", "a") as log_file:
+        log_file.write(f"{datetime.now()} - {request.remote_addr}\n")
+
 
 # Layout of the dashboard
 app.layout = html.Div([
@@ -87,16 +100,6 @@ def update_figure(selected_sensors, selected_signals, selected_tracks):
             "References": True
         }
     )
-
-    # fig.update_layout(
-    #     scene=dict(
-    #         xaxis=dict(title="Sensor Type", titlefont=dict(size=14), tickfont=dict(size=10), tickangle=45),
-    #         yaxis=dict(title="Signal Processing Technique", titlefont=dict(size=14), tickfont=dict(size=10), tickangle=45),
-    #         zaxis=dict(title="Track Parameter or Irregularity", titlefont=dict(size=14), tickfont=dict(size=10), tickangle=45)
-    #     ),
-    #     margin=dict(l=0, r=0, b=0, t=40)
-    # )
-    
     
     fig.update_layout(
         autosize=True,
