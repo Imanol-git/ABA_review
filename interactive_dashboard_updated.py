@@ -21,8 +21,10 @@ app.title = "3D Cross-Table Dashboard"
 # Log each visit with timestamp and IP address
 @app.server.before_request
 def log_visit():
+    log_entry = f"{datetime.now()} - {request.remote_addr}\n"
     with open("visit_log.txt", "a") as log_file:
-        log_file.write(f"{datetime.now()} - {request.remote_addr}\n")
+        log_file.write(log_entry)
+    print(f"Visit logged: {log_entry.strip()}")
 
 
 # Layout of the dashboard
